@@ -47,3 +47,28 @@ div.gallery-item div.desc {
   padding: 15px;
   text-align: center;
 }
+
+ Main hero image styling 
+body > img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+ Responsive gallery *
+@media screen and (max-width: 600px) {
+  div.gallery-item {
+    width: 100%;
+  }
+}
+
+ Image hover effects 
+img {
+  transition: transform 0.3s ease;
+}
+
+div.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
