@@ -50,7 +50,6 @@ div.gallery-item div.desc {
   text-align: center;
 }
 
- Main hero image styling 
 body > img {
   max-width: 100%;
   height: auto;
@@ -58,14 +57,13 @@ body > img {
   margin: 20px auto;
 }
 
- Responsive gallery *
-@media screen and (max-width: 600px) {
+@media(max-width: 600px) {
   div.gallery-item {
     width: 100%;
   }
 }
 
- Image hover effects 
+
 img {
   transition: transform 0.3s ease;
 }
@@ -92,7 +90,6 @@ div.gallery-item:hover img {
   justify-content: center;
 }
 
-/* GLOBALS */
 * {
     margin: 0;
     padding: 0;
@@ -100,13 +97,12 @@ div.gallery-item:hover img {
     font-family: Arial, sans-serif;
 }
 
-/* BODY & BASE */
 body {
     background: #f7f7f7;
     color: #111;
 }
 
-/* NAVIGATION */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -136,33 +132,33 @@ nav ul li a:hover {
     color: #ffd700;
 }
 
-/* HERO HOME */
 .hero {
     padding: 80px 50px;
     text-align: center;
     background: url('https://source.unsplash.com/1600x900/?hotel-room') no-repeat center/cover;
-    color: #fff;
+    color: black;
 }
 
 .hero h1 {
     font-size: 48px;
     margin-bottom: 10px;
+    color: #111111;
 }
-
+c
 .hero p {
     font-size: 20px;
     margin-bottom: 20px;
+
 }
 
-.hero .btn {
-    background: #007bff;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
+#paragraf{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 
-/* ROOMS PAGE */
+
+
 .rooms-page {
     padding: 40px 50px;
 }
@@ -196,15 +192,9 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 15px;
-    background: #222;
-    color: #fff;
-}
 
-/* GLOBALS */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -212,12 +202,8 @@ footer {
     font-family: Arial, sans-serif;
 }
 
-body {
-    background: #f9f9f9;
-    color: #111;
-}
 
-/* NAVBAR */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -247,33 +233,9 @@ nav ul li a:hover {
     color: #ffd700;
 }
 
-/* HERO */
-.hero {
-    text-align: center;
-    padding: 70px 40px;
-    background: url('https://source.unsplash.com/1600x900/?hotel-lobby,hotel') no-repeat center/cover;
-    color: #fff;
-}
 
-.hero h1 {
-    font-size: 44px;
-    margin-bottom: 12px;
-}
 
-.hero p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
 
-.hero .btn {
-    background: #007bff;
-    padding: 10px 18px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-}
-
-/* CONTACT PAGE */
 .contact-page {
     padding: 50px 40px;
     text-align: center;
@@ -289,7 +251,6 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
-/* FORM STYLES */
 .contact-form {
     margin-top: 25px;
     display: flex;
@@ -322,11 +283,10 @@ nav ul li a:hover {
     background: #218838;
 }
 
-/* FOOTER */
 footer {
     text-align: center;
     padding: 15px;
     background: #222;
     color: #fff;
     margin-top: 40px;
-}
+} 
